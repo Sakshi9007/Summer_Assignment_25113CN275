@@ -2,8 +2,10 @@
 int main()
 {
     int n, factorial=1, i;
+
     printf("Enter the number:");
     scanf("%d",&n);
+
     if (n==0)
     {
         printf("Factorial=1");
@@ -12,7 +14,7 @@ int main()
     {
         for(i=1; i<=n; i++)
         {
-            factorial*=i;
+            factorial *= i;
         }
     }
     printf("Facctorial of %d is %d.",n,factorial);

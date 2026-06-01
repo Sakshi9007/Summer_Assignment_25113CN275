@@ -10,6 +10,6 @@ int main()
         ++count;   
     } while (n != 0);
 
-    printf("Number of digits: %d\n", count);
+    printf("Number of digits: %d", count);
     return 0;
 }
